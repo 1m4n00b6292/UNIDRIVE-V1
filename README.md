@@ -16,6 +16,13 @@ The board can be commanded over **CAN (FDCAN1)** or **UART**, and four status LE
 
 The goal is a small, general-purpose driver for robotics and hobby projects, with duty, current, velocity and position control modes.
 
+<!-- Fixed width, centered -->
+<p align="center">
+  <img src="Pictures/UNIDRIVE_3D_Front.png" width="750" alt="PCB top view">
+  <br>
+  <em>Figure 1: PCB 3D view (top)</em>
+</p>
+
 ## Main Components
 
 ### Hardware
@@ -48,6 +55,29 @@ The goal is a small, general-purpose driver for robotics and hobby projects, wit
 | LED RUN / CAL / FAULT / COMM | PB4 / PB5 / PB6 / PB7 | GPIO | Active low |
 | BOOT0 | PB8 | — | 10k to GND (boot from flash) |
 | Expansion | PA5, PA6, PA7, PA8, PB0 | — | Free, on header J5 |
+
+<!-- Fixed width, centered -->
+<p align="center">
+  <img src="Pictures/UNIDRIVE_Layout_L1.png" width="750" alt="Layout top view">
+  <br>
+  <em>Figure 2: Layout view (L1)</em>
+</p>
+<p align="center">
+  <img src="Pictures/UNIDRIVE_Layout_L2.png" width="750" alt="Layout top view">
+  <br>
+  <em>Figure 3: Layout view (L2)</em>
+</p>
+<p align="center">
+  <img src="Pictures/UNIDRIVE_Layout_L3.png" width="750" alt="Layout top view">
+  <br>
+  <em>Figure 4: Layout view (L3)</em>
+</p>
+<p align="center">
+  <img src="Pictures/UNIDRIVE_Layout_L4.png" width="750" alt="Layout top view">
+  <br>
+  <em>Figure 5: Layout view (L4)</em>
+</p>
+
 
 ### Connectors
 
